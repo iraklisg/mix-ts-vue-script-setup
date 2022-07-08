@@ -1,0 +1,20 @@
+{
+    "extends": "@vue/tsconfig/tsconfig.json",
+    "compilerOptions": {
+        //  You may need to overwrite some settings, such as
+        // "preserveValueImports": false, //overwrites default @vue/tsconfig
+        // "importsNotUsedAsValues": "remove",//overwrites default @vue/tsconfig
+        "lib": [
+            "es2021"
+        ],
+        // If you are using Vite
+        //"types": ["vite/client"]
+    },
+    "include": [
+        "resources/js/**/*.ts",
+        "resources/js/**/*.vue"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
